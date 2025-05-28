@@ -14,14 +14,21 @@
   "dependencies": {
     "@types/express": "^5.0.2",
     "@types/node": "^22.15.23",
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",
-    "socket.io": "^4.8.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "@types/mongoose": "^5.11.96"
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express-validator": "^2.20.33",
+    "@types/hapi__joi": "^17.1.15",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.96",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
